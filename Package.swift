@@ -16,15 +16,15 @@ enum Checksums {
 }
 
 let package = Package(
-    name: "iDenfyLiveness",
+    name: "iDenfyBlurGlareDetection",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "iDenfyLiveness-Dynamic",
+            name: "iDenfyBlurGlareDetection-Dynamic",
             type: .dynamic,
             targets: ["iDenfySDKTarget"]),
         .library(
-            name: "iDenfyLiveness",
+            name: "iDenfyBlurGlareDetection",
             targets: ["iDenfySDKTarget"]),
     ],
     dependencies: [
